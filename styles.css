@@ -5,9 +5,7 @@ body {
   background-color: #f4f4f4;
 }
 
-
-
-.container {
+.bmi-container {
   width: 340px;
   margin: 0 auto;
   padding: 20px;
@@ -16,27 +14,15 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-
-
-table {
-  margin: 0 auto;
-  border-collapse: collapse;
-}
-
-
-
 h1 {
   text-align: center;
   margin-bottom: 20px;
 }
 
-
-
-form {
-  text-align: center;
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
 }
-
-
 
 input[type="number"] {
   width: 90px;
@@ -45,8 +31,6 @@ input[type="number"] {
   border-radius: 4px;
   border: 1px solid #ccc;
 }
-
-
 
 input[type="button"] {
   padding: 10px 20px;
@@ -57,17 +41,13 @@ input[type="button"] {
   cursor: pointer;
 }
 
-
-
 input[type="button"]:hover {
   background-color: #2980b9;
 }
 
-
 .center-button {
   text-align: center;
 }
-
 
 #result {
   margin-top: 20px;

@@ -12,7 +12,7 @@ function calculateBMI() {
     }
   }
 
-  function bmiCalculator(weight, height) {
+function bmiCalculator(weight, height) {
     var bmi = weight / (height * height);
     var txt = "";
 
